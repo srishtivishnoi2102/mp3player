@@ -26,8 +26,8 @@ previous_icon = PhotoImage(file=r"images\previous.png")
 stop_icon = PhotoImage(file=r"images\stop.png")
 
 def chooseDirectory():
-    # directory = askdirectory()
-    directory = "C:/Users/Srishti Vishnoi/Python Projects/musicplayer/song_folder/"
+    directory = askdirectory()
+    # directory = "C:/Users/Srishti Vishnoi/Python Projects/musicplayer/song_folder/"
     os.chdir(directory)
 
     for file in os.listdir(directory):
